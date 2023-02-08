@@ -6,35 +6,86 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>HTML Homework</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+	<style>
+		body {
+			font-family: "Poppins", sans-serif;
+			line-height: 0.8;
+			background-color: #DBC2DF;
+			align-content: center;
+		}
+
+		.fa {
+			padding: 10px;
+			font-size: 20px;
+			width: 20px;
+			text-align: center;
+			text-decoration: none;
+			border-radius: 50%;
+		}
+
+		.fa:hover {
+			opacity: 0.7;
+		}
+
+
+		.fa-instagram {
+			background: #FF9FE7;
+			color: #FF0FB4;
+		}
+
+
+		.fa-pinterest {
+			background: #FFBF00;
+			color: #FF7145;
+		}
+
+		img {
+			border-radius: 8px;
+			float: left;
+			margin: 0 10px 10px 10px;
+		}
+
+		.intro {
+			background-color: #F6F2EE;
+			color: #000000;
+			border: 3px solid black;
+			border-radius: 8px;
+			margin: 50px;
+			padding: 10px;
+			max-width: 50%;
+		}
+	</style>
 </head>
 
 <body>
-	<h1>Navigation:</h1>
-	<nav>
-		<ul>
-			<li></li><a href="./pages/page2.html">Page 2</a></li>
-			<li><a href="#intro">Introduction</a></li>
-			<li><a href="#socials">Socials</a></li>
-		</ul>
-	</nav>
 	<main>
 
-		<div id="intro">
-			<h2>Intro title</h2>
+		<div class="intro">
+			<img src="https://sarahcromwell.com/wp-content/uploads/2023/01/Website-Image-1-scaled-e1673534219281-600x730.jpg"
+				alt="Photo of me" width="200">
+			<h1>Hey, I'm Sarah.</h1>
+			<h3>It's nice to meet you!</h3>
 			<p>Introduction body text here</p>
-			<img src="https://sarahcromwell.com/wp-content/uploads/2022/12/s.png" alt="A photo of myself" width="200">
 
-			<div id="socials">
-				<h3>Socials title</h3>
 
-			</div>
-			<ul>
-				<li>List number 1</li>
-				<li>List number 2</li>
-				<li>List number 3</li>
-				<li>List number 4</li>
-				<li>List number 5</li>
-			</ul>
+
+			<h3>Find me on socials</h3>
+			<a href="#" class="fa fa-instagram"></a>
+			<a href="#" class="fa fa-pinterest"></a>
+
+
+
+			<nav>
+				<ul>
+					<li><a href="./pages/page2.html">Page 2</a></li>
+				</ul>
+			</nav>
+		</div>
+
+
+
 
 	</main>
 
