@@ -1,0 +1,47 @@
+body {
+    font-family: "Poppins", sans-serif;
+    line-height: 0.8;
+    background-color: #DBC2DF;
+    align-content: center;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+.fa-instagram {
+    background: #FF9FE7;
+    color: #FF0FB4;
+}
+
+
+.fa-pinterest {
+    background: #FFBF00;
+    color: #FF7145;
+}
+
+img {
+    border-radius: 8px;
+    float: left;
+    margin: 0 10px 10px 10px;
+}
+
+.intro {
+    background-color: #F6F2EE;
+    color: #000000;
+    border: 3px solid black;
+    border-radius: 8px;
+    margin: 50px;
+    padding: 10px;
+    max-width: 50%;
+}
